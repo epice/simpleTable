@@ -1,0 +1,15 @@
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+### Linux ###
+.*
+!.gitignore
+*~
+
+### project ###
+node_modules
+out
+

@@ -1,0 +1,20 @@
+#excel_canvas_container { width: 100%; overflow: auto; font-family: "ヒラギノ角ゴ ProN W3", "ヒラギノ角ゴ Pro W3","メイリオ", "ＭＳ Ｐゴシック", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", verdana, Arial, sans-serif; }
+
+#excel_canvas { position: relative; width: 100%; }
+#excel_canvas table { border-collapse: collapse; border-top: solid 1px #cccccc; border-left: solid 1px #cccccc; width: 100%; margin-bottom: 30px; }
+#excel_canvas th, #excel_canvas td { padding: 0px; border-right: solid 1px #cccccc; border-bottom: solid 1px #cccccc; text-align: left; line-height: 1.3; width: 10%; font-size: 11px; word-break: break-all; -webkit-user-select: none; -moz-user-select: none; -user-select: none; }
+#excel_canvas tr:nth-child(even) th, #excel_canvas tr:nth-child(even) td { background-color: #f3f3f3; }
+#excel_canvas .hidden { display: none; }
+#excel_canvas .hidden.visible { display: block; }
+#excel_canvas .cell_val { padding: 5px; display: block; min-height: 15px; min-width: 80px; }
+#excel_canvas .medium .cell_val { width: 200px; }
+#excel_canvas .wide .cell_val { width: 600px; }
+#excel_canvas .disabled .cell_val { color: #999; }
+#excel_canvas .selected { padding: 0px; margin: 0px; }
+#excel_canvas .ta_holder { display: block; position: relative; }
+#excel_canvas textarea#excel_edit_area { display: none; box-sizing: border-box; position: absolute; top: 0px; left: -9999px; margin: 0px; padding: 2px 4px; height: 100%; border: solid 2px #5292f7 !important; box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) !important; font-size: 105%; resize: none; vertical-align: bottom; overflow: hidden; }
+#excel_canvas textarea#excel_edit_area.editing { display: block; }
+#excel_canvas td.selected { background-color: rgba(82, 146, 247, 0.1) !important; }
+#excel_canvas .selection_area { position: absolute; top: -9999px; left: -9999px; }
+#excel_canvas .selection_border { position: absolute; top: 0px; left: 0px; width: 1px; height: 1px; background-color: #5292f7; }
+#excel_canvas .selection_handle { position: absolute; background-color: #5292f7; border: 1px solid white; width: 5px; height: 5px; z-index: 8; margin-top: 1px; cursor: crosshair; }

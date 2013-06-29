@@ -1,0 +1,23 @@
+{
+  "name": "simpleTable",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/epice/simpleTable.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "gitHead": "570d01a68b50b1eab5433bca66500a11fa7ee9a2",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-sass": "~0.3.0"
+  }
+}
